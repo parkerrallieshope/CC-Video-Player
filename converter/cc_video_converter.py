@@ -111,7 +111,7 @@ class ConverterApp(ttk.Frame):
 
         ttk.Label(
             size_frame,
-            text="An 8x6-block monitor at the default text scale is exactly 70x40 -- that's why those are the maximums.",
+            text="An 8x6-block monitor at the default text scale is exactly 70x40; 140x80 at twice scale; that's why those are the maximums.",
             foreground="#555", wraplength=560, justify="left",
         ).grid(row=3, column=0, columnspan=4, sticky="w", pady=(4, 0))
 
